@@ -1,0 +1,41 @@
+.line {
+    background-color: teal;
+    height: 3px;
+    margin-top: 3rem;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.line {
+    background-color: #7e7e7e;
+    margin-bottom: 3rem;
+    height: 1px;
+}
+
+.a-none a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 10rem;
+}
+
+.h-80 {
+    height: 20rem;
+}
+
+.footer {
+    color: white;
+}
+
+@media (min-width:992px) {
+    .line-none {
+        border: 0px !important;
+    }
+}
